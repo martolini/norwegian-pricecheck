@@ -11,4 +11,4 @@ ENV NODE_ENV production
 ADD . /app
 WORKDIR /app
 
-CMD ["node", "index.js", 2000]
+CMD ["node", "index.js", "2000"]
